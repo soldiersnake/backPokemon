@@ -29,7 +29,7 @@ Para instalar y ejecutar este proyecto en tu máquina local:
 git clone https://github.com/tuusuario/pokemon-api.git
 cd pokemon-api
 npm install
-```bash
+```
 Para iniciar proyecto de forma Local - determinar la variable de entorno en el puerto de preferencia, sino el por defecto sera el 3000
 .env
 PORT = 3000 (o el de preferencia)
@@ -75,9 +75,13 @@ Si prefieres usar Docker, puedes construir y ejecutar la imagen del proyecto.
 
 ``` abrir terminal e insertar comandos
 - Construir la imagen Docker
+```bash
 docker build -t pokemon-api .
+```
 - Ejecutar el contenedor Docker
+```bash
 docker run -p 3000:3000 pokemon-api
+```
 Tu aplicación se ejecutará en http://localhost:3000.
 
 ## Tecnologías Utilizadas
