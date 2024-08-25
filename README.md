@@ -28,7 +28,8 @@ Para instalar y ejecutar este proyecto en tu máquina local:
 ```bash
 git clone https://github.com/tuusuario/pokemon-api.git
 cd pokemon-api
-npm install (Para instalar dependencias y generar archivo node_modules)
+npm install
+```bash
 Para iniciar proyecto de forma Local - determinar la variable de entorno en el puerto de preferencia, sino el por defecto sera el 3000
 .env
 PORT = 3000 (o el de preferencia)

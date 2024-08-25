@@ -24,7 +24,6 @@ class pokemonController {
             const name = req.params.name;
             const formattedName = name.toLowerCase().trim();
             const pokemon = await pokemonService.fetchPokemonByName(formattedName); //utilizamos servicio
-            console.log('pasamos x aqui');
             
             //manejo de errores
             if (!pokemon) {
