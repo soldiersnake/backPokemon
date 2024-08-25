@@ -37,11 +37,12 @@ La aplicación estará corriendo en http://localhost:3000
 
 ## Uso
 Rutas de la API
-Obtener lista de Pokémon
+### Obtener lista de Pokémon
 GET /api/pokemon
 
 Devuelve una lista de los primeros 250 Pokémon.
 
+### Obtener pokemon por nombre por Url
 GET /api/pokemon/findByName/:name
 
 Devuelve un Pokémon segun en name(nombre) por params.
@@ -49,7 +50,7 @@ Devuelve un Pokémon segun en name(nombre) por params.
 Url ej:
 http://localhost:3000/api/pokemon/findByName/pikachu
 
-Buscar un Pokémon por nombre
+### Buscar un Pokémon por nombre
 POST /api/pokemon/findByName
 
 Body:
@@ -61,7 +62,7 @@ json
 ```
 Devuelve la información del Pokémon con el nombre dado, incluyendo la experiencia base, altura y peso.
 
-Obtener lista en CSV ordenada por experiencia
+### Obtener lista en CSV ordenada por experiencia
 GET /api/pokemon/csv/:color
 
 Devuelve un archivo CSV con la lista de Pokémon de un color dado, ordenada por experiencia base.
