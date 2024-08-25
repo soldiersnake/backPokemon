@@ -19,7 +19,7 @@ app.use(bodyParser.urlencoded({ extended: true }));
 app.use(bodyParser.json());
 
 // Configura la ruta base para el router de Pokemon
-app.use('/', routerPokemon);
+app.use('/api', routerPokemon);
 
 //escucha del puerto segun variable de entorno
 app.listen(PORT, () => {
