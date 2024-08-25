@@ -72,7 +72,7 @@ curl -X POST http://localhost:3000/api/findByName -H "Content-Type: application/
 ## Dockerización
 Si prefieres usar Docker, puedes construir y ejecutar la imagen del proyecto.
 
-``` abrir terminal e insertar comandos
+abrir terminal e insertar comandos
 - Construir la imagen Docker
 ```bash
 docker build -t pokemon-api .
