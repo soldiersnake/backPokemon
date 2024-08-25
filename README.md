@@ -54,9 +54,11 @@ POST /api/pokemon/findByName
 
 Body:
 json
+```bash
 {
   "name": "pikachu"
 }
+```
 Devuelve la información del Pokémon con el nombre dado, incluyendo la experiencia base, altura y peso.
 
 Obtener lista en CSV ordenada por experiencia
