@@ -81,6 +81,7 @@ docker build -t pokemon-api .
 ```bash
 docker run -p 3000:3000 pokemon-api
 ```
+- O tambien puedes usar Docker Desktop y correr la aplicacion de alli mismo
 Tu aplicación se ejecutará en http://localhost:3000.
 
 ## Tecnologías Utilizadas
