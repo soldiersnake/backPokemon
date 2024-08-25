@@ -81,7 +81,7 @@ docker build -t pokemon-api .
 ```bash
 docker run -p 3000:3000 pokemon-api
 ```
-** O tambien puedes usar Docker Desktop y correr la aplicacion de alli mismo**
+**O tambien puedes usar Docker Desktop y correr la aplicacion de alli mismo**
 Tu aplicación se ejecutará en http://localhost:3000.
 
 ## Tecnologías Utilizadas
@@ -96,9 +96,9 @@ Tu aplicación se ejecutará en http://localhost:3000.
 ## Contribuir
 Si deseas contribuir a este proyecto, sigue los siguientes pasos:
 
-- Haz un fork del proyecto
-- Crea una nueva rama (git checkout -b feature/mi-feature)
-- Realiza tus cambios (git commit -m 'Agrega una nueva feature')
-- Sube los cambios a tu repositorio fork (git push origin feature/mi-feature)
-- Crea un Pull Request
+1. Haz un fork del proyecto
+2. Crea una nueva rama (git checkout -b feature/mi-feature)
+3. Realiza tus cambios (git commit -m 'Agrega una nueva feature')
+4. Sube los cambios a tu repositorio fork (git push origin feature/mi-feature)
+5. Crea un Pull Request
 
