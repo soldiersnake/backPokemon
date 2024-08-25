@@ -11,7 +11,6 @@ Esta es una aplicación de Node.js que se conecta a la API de Pokémon ([PokeAPI
 - [Dockerización](#dockerización)
 - [Tecnologías Utilizadas](#tecnologías-utilizadas)
 - [Contribuir](#contribuir)
-- [Licencia](#licencia)
 
 ## Características
 
@@ -67,7 +66,7 @@ Devuelve un archivo CSV con la lista de Pokémon de un color dado, ordenada por 
 
 Ejemplo de uso de la API
 Puedes realizar las llamadas a las rutas de la API usando curl o herramientas como Postman.
-## ejemplo curl
+### Ejemplo curl
 curl -X POST http://localhost:3000/api/findByName -H "Content-Type: application/json" -d '{"name": "pikachu"}'
 
 ## Dockerización
